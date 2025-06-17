@@ -81,7 +81,7 @@ body {
 }
 
 .landing-header {
-  background-image: url('/public/terraria.jpeg');
+  background-image: url('/src/assets/terraria.jpeg');
   background-size: cover;
   background-position: center;
   padding: 4rem 2rem;

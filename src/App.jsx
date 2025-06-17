@@ -6,7 +6,7 @@ function App() {
       <header className="landing-header">
         <h1>Página Landing-Page</h1>
         <p>Página creada con la finalidad de ejemplificar el uso de githupage</p>
-        <img src="./public/Knight.png" alt="Logo" className="landing-logo" />
+        <img src="./src/assets/Knight.png" alt="Logo" className="landing-logo" />
       </header>
 
       <section className="landing-benefits">
