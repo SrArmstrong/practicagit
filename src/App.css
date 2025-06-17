@@ -1,42 +1,91 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #000000;
+}
+
+.landing-container {
   text-align: center;
+  padding: 2rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.landing-header {
+  margin-bottom: 2rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.landing-header h1 {
+  font-size: 2.5rem;
+  color: #5ea896;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.landing-header p {
+  font-size: 1.2rem;
+  color: #ffffff;
 }
 
-.card {
-  padding: 2em;
+.landing-logo {
+  width: 100px;
+  margin-top: 1rem;
 }
 
-.read-the-docs {
-  color: #888;
+.landing-benefits {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.landing-benefits h2 {
+  margin-bottom: 1rem;
+  color: #2980b9;
+}
+
+.landing-benefits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.landing-benefits li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.landing-cta {
+  margin: 2rem 0;
+}
+
+.cta-button {
+  background-color: #27ae60;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #219150;
+}
+
+.landing-footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.landing-header {
+  background-image: url('/public/terraria.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+  color: white;
+  border-radius: 10px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }

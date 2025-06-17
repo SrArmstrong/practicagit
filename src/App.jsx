@@ -1,34 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        HOLA MUNDO!!!
-      </p>
-    </>
+    <div className="landing-container">
+      <header className="landing-header">
+        <h1>Página Landing-Page</h1>
+        <p>Página creada con la finalidad de ejemplificar el uso de githupage</p>
+        <img src="./public/vite.svg" alt="Logo" className="landing-logo" />
+      </header>
+
+      <section className="landing-benefits">
+        <h2>¿Por qué elegirnos?</h2>
+        <ul>
+          <li>Rápida implementación sin complicaciones</li>
+          <li>Seguridad y privacidad garantizadas</li>
+          <li>Herramientas de análisis avanzadas</li>
+          <li>Diseño responsivo y moderno</li>
+        </ul>
+      </section>
+
+      <section className="landing-cta">
+        <button className="cta-button">Empieza Ahora</button>
+      </section>
+
+      <footer className="landing-footer">
+        <p>© 2025 Sergio Pérez Aldavalde. Todos los derechos reservados.</p>
+      </footer>
+    </div>
   )
 }
 
