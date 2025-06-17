@@ -1,4 +1,5 @@
 import './App.css'
+import knightLogo from './assets/Knight.png';
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <header className="landing-header">
         <h1>Página Landing-Page</h1>
         <p>Página creada con la finalidad de ejemplificar el uso de githupage</p>
-        <img src="./src/assets/Knight.png" alt="Logo" className="landing-logo" />
+        <img src={knightLogo} alt="Logo" className="landing-logo" />
       </header>
 
       <section className="landing-benefits">
