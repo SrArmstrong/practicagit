@@ -1,6 +1,32 @@
-# React + Vite
+# Evaluación U2
 
-# Node Version
+Página diseñada para poder evaluar la unidad 2 de la materia de Desarrollo Web Integral, donde se ejecuta la página en GithubPages utilizando un yml.
+
+## Estructura de carpetas:
+
+.github/workflows/
+└── main.yml
+
+node_modules/
+public/
+├── Knight.png
+└── terraria.jpg
+src/
+├── assets/
+├── .nojekyll (vacío)
+├── App.css
+├── App.jsx
+├── index.css
+└── main.jsx
+
+.gitignore
+package.json
+README.md
+vite.config.js
+
+# Requisitos
+
+## Node Version
 
     v22.13.0
 
@@ -9,13 +35,13 @@
 npm install
 npm run dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologías
 
-Currently, two official plugins are available:
+- React
+- Vite
+- CSS puro
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Creador/Creditos
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Sergio Pérez Aldavalde
+    MCC. Emmanuel Martínez Hernández
